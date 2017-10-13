@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 
+# hey this some hacktoberfest practice nonsense
 
 faceDetect = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 cam = cv2.VideoCapture(0)
